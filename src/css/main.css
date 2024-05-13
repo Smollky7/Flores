@@ -1642,3 +1642,10 @@ body {
   width: 100%; /* ou o tamanho desejado */
   text-align: center; /* ou outro alinhamento desejado */
 }
+/* Estilo para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  .audio-container {
+    width: 80%; /* Ajusta o tamanho do contêiner de áudio para 80% da largura da tela */
+  }
+  /* Adicione mais estilos responsivos conforme necessário */
+}
